@@ -1,6 +1,6 @@
 import os
+#I used environment variables for the below but feel free to replace them with your real email and password to test
 
-#Insert your email credentials to below to send emails to yourself
 EMAIL_ADDRESS = os.environ.get('EMAIL_ADDRESS')
 PASSWORD = os.environ.get('PASSWORD')
 
